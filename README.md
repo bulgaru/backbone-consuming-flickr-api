@@ -22,13 +22,16 @@ Backbone app that consumes Flickr photos public API (https://www.flickr.com/serv
 - [Jasmine](http://jasmine.github.io/2.4/introduction.html) as testing framework
  
 ###The repository contains:
-| What             | Where           |
-| ---------------- | --------------- |
-| production code  | /dist/*         |
-| development code | /src/*          |
-| tests            | /tests/*        |
-| gulp config      | /gulpfile.js    |
-| karma config     | /karma.conf.js  |
+| What                | Where                                 |
+| ------------------- | ------------------------------------- |
+| production code     | [/dist/*](/dist/)                   |
+| JS libraries        | [/src/libraries/*](/src/libraries/) |
+| SCSS (w/ Bootstrap) | [/src/scss/*](/src/scss/)           |
+| app templates       | [/src/templates/*](/src/templates/) |
+| app code            | [/src/app/*](/src/app/)             |
+| tests               | [/tests/*](/tests/unit/)            |
+| gulp config         | [/gulpfile.js](/gulpfile.js)        |
+| karma config        | [/karma.conf.js](/karma.conf.js)    |
 
 ###Getting started
 Here are the following steps to get you started
@@ -40,7 +43,6 @@ Here are the following steps to get you started
 - set up Karma server with Jasmine and Phantom.js browser:
 
 `npm install --save-dev karma karma-jasmine karma-phantomjs-launcher karma-spec-reporter`
-
 
 
 If you would like to try out the application, you can:
