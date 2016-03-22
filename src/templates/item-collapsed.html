@@ -1,0 +1,19 @@
+<div class="row item">
+	<div class="col-xs-4 col-sm-3">
+		<a href="#item/<%= alias %>" class="item__avatar" style="background-image: url('<%= media.m %>');"></a>
+	</div>
+	<div class="col-xs-8 col-sm-9 padding-top padding-bottom padding-large-right">
+		<div class="row">
+			<div class="col-xs-12">
+				<a class="item__title" href="#item/<%= alias %>">
+					<h2><%= title %></h2>
+				</a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-sm-push-3 item__published"><span>Published: </span><%= date_formatted %></div>
+			<div class="col-xs-6 col-sm-3 col-sm-pull-6 item__author"><a target="_blank" href="<%= author_link %>">Post author</a></div>
+			<div class="col-xs-6 col-sm-3 item__flickr"><a target="_blank" href="<%= link %>">View on Flickr</a></div>
+		</div>
+	</div>
+</div>
