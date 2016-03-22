@@ -3,7 +3,7 @@
  * - production tools:
  * npm install --save-dev gulp browser-sync gulp-sass gulp-notify gulp-autoprefixer gulp-minify-css gulp-concat gulp-uglify gulp-template-compile
  * - testing tools:
- * npm install --save-dev karma karma-jasmine karma-phantomjs-launcher karma-spec-reporter
+ * npm install --save-dev karma karma-jasmine karma-phantomjs-launcher karma-spec-reporter karma-jasmine-jquery
  */
 
 var gulp		= require('gulp');
