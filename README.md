@@ -42,7 +42,7 @@ Here are the following steps to get you started
 `npm install --save-dev gulp browser-sync gulp-sass gulp-notify gulp-autoprefixer gulp-minify-css gulp-concat gulp-uglify gulp-template-compile`
 - set up Karma server with Jasmine and Phantom.js browser:
 
-`npm install --save-dev karma karma-jasmine karma-phantomjs-launcher karma-spec-reporter`
+`npm install --save-dev karma karma-jasmine karma-phantomjs-launcher karma-spec-reporter karma-jasmine-jquery`
 
 
 If you would like to try out the application, you can:
