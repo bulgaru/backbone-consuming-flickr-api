@@ -1,6 +1,9 @@
 # backbone-consuming-flickr-api
 Backbone app that consumes Flickr photos public API (https://www.flickr.com/services/feeds/docs/photos_public/)
 
+###Try it out
+[Live demo](http://www.crql.net/backbone/)
+
 ###The app is designed with the following functionality in mind:
 - it should consume public photos using the Flickr public API
 - it should be able to render a view with the list of all the fetched items
